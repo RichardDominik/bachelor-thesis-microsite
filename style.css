@@ -1,0 +1,234 @@
+body {
+    background: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    color: #1E1E22 !important;
+}
+
+h1:nth-child(2), h3 {
+    margin-left: 0px;
+    color: #C0C0C2 !important;
+}
+
+h1 {
+    color: #000000 !important;
+    margin-left: -65px;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+p {
+    color: #2C2B30 !important;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #0288D1 !important;
+}
+
+.info { 
+    line-height: 1;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.ntb-img {
+    margin-left: -65px;
+}
+
+.mobile-img {
+    top: 150px;
+}
+
+[data-aos="custom-rigth"] {
+    opacity: 0;
+    margin-left: 50px;  
+    transform: rotate(90deg);
+    transition-property: opacity, margin-left, transform;
+}
+
+[data-aos="custom-rigth"].aos-animate {
+    opacity: 1;
+    margin-left: 40px;
+    transform: rotate(15deg);
+}
+
+.source p, h3 {
+    line-height: 1 ;
+}
+
+footer {
+    height: 100px;
+    background: #F3F2F7;
+}
+
+footer p {
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.social-networks {
+    margin-top: 35px;
+}
+
+.social-networks a {
+    color: #1E1E22 !important;
+}
+
+.schedule-month {
+    background: #50DDD4;
+    width: 30px;
+}
+
+#schedule .schedule-card:nth-child(3) .schedule-month {
+    background: #79B7EE;
+}
+
+#schedule .schedule-card:nth-child(4) .schedule-month {
+    background: #FEC35E;
+}
+
+#schedule .schedule-card:nth-child(5) .schedule-month {
+    background: #9D81EF;
+}
+
+#schedule .schedule-card:nth-child(6) .schedule-month {
+    background: #FF7B7C;
+}
+
+#schedule .schedule-card:nth-child(4) .schedule-month p {
+    margin-top: 40px;
+}
+
+#schedule .schedule-card:nth-child(5) .schedule-month p {
+    margin-top: 20px;
+}
+
+#schedule .schedule-card:nth-child(6) .schedule-month p {
+    margin-top: 20px;
+}
+
+.schedule-month p {
+    margin-top: 60px;
+    font-weight: 200;
+    transform: rotate(-90deg);
+    color: #ffffff !important;
+}
+
+ul {
+    list-style:none;
+}
+
+.schedule-card {
+    background: #ffffff;
+}
+
+.bg_silver {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+  }
+  
+.bg_silver:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 320px;
+    left: 0px;
+    background-color: #F3F2F7;
+    transform: skewY(-25deg);
+    transform-origin: left top;
+    backface-visibility: hidden;
+    z-index: -1;
+}
+
+.bg_silver_smaller {
+    position: relative;
+    height: 400px;
+    margin-top: -200px;
+    width: 100%;
+    z-index: -100;
+}
+
+.bg_silver_smaller:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    bottom: -50px;
+    left: 0;
+    background-color: #F3F2F7;
+    transform: skewY(-25deg);
+    transform-origin: left bottom;
+    backface-visibility: hidden;
+    z-index: -1;
+}
+
+a {
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+@media all and (max-width: 1300px) {
+    h1 {
+        font-size: 2rem;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 774px) {
+    .ntb-img {
+        margin-left: 0px;
+    }
+
+    [data-aos="custom-rigth"].aos-animate {
+        opacity: 1;
+        margin-right: 80px;
+        transform: rotate(0);
+    }
+
+    [data-aos="custom-rigth"] {
+        opacity: 0;
+        margin-left: 0px;  
+        transition-property: opacity, margin-left;
+    }
+
+    .mobile-img {
+        height: auto;
+        max-width: 150px !important;
+        top: 20px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .mobile-img img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .social-networks {
+        margin-top: 0;
+        text-align: center !important;
+    }
+
+    footer {
+        height: 150px;
+    }
+}

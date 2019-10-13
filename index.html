@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Systém pre správu litostratigrafických dát</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header class="container ">
+        <div class="col-md-12 col-12 no-gutters header">
+            <div data-aos="fade-down" data-aos-offset="0" class="no-gutters">
+                <h2>Bakalárska práca</h2>
+                <h1 class="col-md-7 col-12">Systém pre správu litostratigrafických dát.</h1>
+                <p class="col-md-6 col-sm-12">Litostratigrafické dáta popisujú zloženie geografických formácií. V súčasnosti neexistuje centrálna databáza litostratigrafických dát pre Slovensko. Dáta sú distribuované v množstve publikácii.</p>
+            </div>
+            <div class="row pt-4">
+                <div data-aos="fade-right" data-aos-offset="0" class="col-md-9 col-12 ntb-img">
+                    <img src="assets/img/notebook-screen.png" alt="notebook screen" class="img img-responsive col-12">
+                </div>
+                <div data-aos="custom-rigth" data-aos-offset="0" class="col-md-3 col-12 mobile-img">
+                        <img src="assets/img/mobile-screen.png" alt="mobile screen" class="img img-responsive col-12 mx-auto ">
+                </div>
+            </div>
+            
+            <div class="info mt-5 col-sm-12" data-aos="fade-left" data-aos-offset="0">
+                <p>Autor: Richard Dominik</p>
+                <p>Školiteľ: Ing. Alexander Šimko PhD.</p>
+                <p>Konzultant : doc. Mgr. Natália Hlavatá Hudáčková , PhD.</p>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="bg_silver"></div>
+     
+
+    <section class="container mt-5" id="goal">
+        <div class="col-md-12 no-gutters" data-aos="fade-down" data-aos-offset="0">
+            <h1>Cieľ</h1>
+            <p class="mt-5 col-md-11">Cieľom práce je vytvoriť webovú viacpoužívateľskú aplikáciu na správu litostratigrafických dát podľa požiadaviek Katedry geológie a paleontológie PRIF UK. Hlavnými funkciami aplikácie budú: správa dát o geografických formáciách a podformáciách, ich profiloch, materiáloch, relevantných publikáciách a pod., potvrdzovanie zmien schvaľovateľom, vyhľadávanie dát a export dát do pdf formátu. Funkcie aplikácie budú používateľom sprístupnené na základe používateľských rolí.</p>
+        </div>
+    </section>
+
+    <section class="container mt-5" id="sources">
+        <div class="col-md-12" data-aos="fade-down" data-aos-offset="0">
+            <h1>Zdroje</h1>
+            <div class="sources no-gutters">
+                <div class="mt-5 col-md-11 source no-gutters">
+                    <h3>Laravel</h3>
+                    <p>( Taylor Otwell )</p>
+                    <div class="mt-4 col-sm-12">
+                        <a class="mt-5" target="_blank" href="https://laravel.com/docs/6.x">https://laravel.com/docs/6.x</a>
+                    </div>
+                </div>
+                <div class="mt-5 col-md-11 source no-gutters">
+                    <h3>Vue.js </h3>
+                    <p>( Evan You )</p>
+                    <div class="mt-4">
+                        <a class="mt-5" target="_blank" href="https://vuejs.org/v2/guide/">https://vuejs.org/v2/guide/</a>
+                    </div>
+                </div>
+                <div class="mt-5 col-md-11 source no-gutters">
+                    <h3>Craftable</h3>
+                    <p>( BRACKETS by Triad )</p>
+                    <div class="mt-4">
+                        <a class="mt-5" target="_blank" href="https://getcraftable.com/docs/5.0/overview">https://getcraftable.com/docs/5.0/overview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section-margin mt-5" id="schedule">
+        <div class="col-md-12 col-12 no-gutters">
+            <h1 data-aos="fade-down" data-aos-offset="0">Harmonogram práce</h1>
+
+            <div class="col-md-9 col-12 schedule-card mt-5 shadow" data-aos="fade-left" data-aos-offset="0">
+                <div class="row no-gutters">
+                    <div class="schedule-month">
+                        <p>Október</p>
+                    </div>
+                    <ul class="pt-5 pb-4 pl-md-5 pl-4">
+                        <li>-  Prototyp aplikácie.</li>
+                        <li>-  Wireframy formulárov.</li>
+                        <li>-  Overenie správnosti dátoveho modelu.</li>
+                        <li>-  Štúdium technológií a existujúcich riešení</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offset-md-3 col-12 col-md-9 schedule-card mt-5 shadow" data-aos="fade-right" data-aos-offset="0">
+                <div class="row no-gutters">
+                    <div class="schedule-month">
+                        <p>December</p>
+                    </div>
+                    <ul class="pt-5 pb-4 pl-md-5 pl-4">
+                        <li>-  Importovanie dát z Excelu.</li>
+                        <li>-  Shvaľovanie zmien administrátorom.</li>
+                        <li>-  Wireframe pre frontend aplíkacie.</li>
+                        <li>-  Export dát do PDF.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9 schedule-card mt-5 shadow" data-aos="fade-left" data-aos-offset="0">
+                <div class="row no-gutters">
+                    <div class="schedule-month">
+                        <p>Január</p>
+                    </div>
+                    <ul class="pt-5 pb-4 pl-md-5 pl-4">
+                        <!-- <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="offset-md-3  col-md-9 schedule-card mt-5 shadow" data-aos="fade-right" data-aos-offset="0">
+                <div class="row no-gutters">
+                    <div class="schedule-month">
+                        <p>Apríl</p>
+                    </div>
+                    <ul class="pt-5 pb-4 pl-md-5 pl-4">
+                        <!-- <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9 schedule-card mt-5 shadow" data-aos="fade-left" data-aos-offset="0">
+                <div class="row no-gutters">
+                    <div class="schedule-month">
+                        <p>Máj</p>
+                    </div>
+                    <ul class="pt-5 pb-4 pl-5">
+                        <!-- <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li>
+                        <li>-  Lorem ipsum dolor sit amet.</li> -->
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section class="container mt-5" id="diary">
+        <div class="col-md-12" data-aos="fade-down" data-aos-offset="0">
+            <h1>Denník</h1>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>1.10.2019 - 13.10.2019</h3>
+                <p class="mt-3 col-md-9">Overenie spávnosti dátoveho modelu pomocou prototypu aplíkacie. Návrh riešenia pre importovania <a href="http://stratigraphy.org/ICSchart/ChronostratChart2019-05.jpg" target="_blank">litostratografickej tabuľky</a> pomocou Excelu a návrh wireframov pre formuláre v aplikácií.</p>
+            </div>
+            <!-- <div class="diary-range mt-5 no-gutters">
+                <h3>21.10.2019 - 28.10.2019</h3>
+                <p class="mt-3 col-md-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mattis purus varius ornare. Nam sit amet arcu elit. Maecenas id pellentesque tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mattis purus varius ornare. Nam sit amet arcu elit. Maecenas id pellentesque tellus.</p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>21.10.2019 - 28.10.2019</h3>
+                <p class="mt-3 col-md-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mattis purus varius ornare. Nam sit amet arcu elit. Maecenas id pellentesque tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum mattis purus varius ornare. Nam sit amet arcu elit. Maecenas id pellentesque tellus.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <div class="bg_silver_smaller"></div>
+
+    <footer class="">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4 text-center">
+                        <p>Richard Dominik 2019 - 2020</p>
+                    </div>
+                    <div class="social-networks col-md-4 text-right">
+                        <a href="https://www.linkedin.com/in/richard-dominik-876693168/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+                        <a href="https://github.com/RichardDominik" target="_blank" class="ml-2 mr-2"><i class="fa fa-2x fa-github"></i></a>
+                        <a href="https://www.instagram.com/richard.dominik/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./app-min.js"></script>
+</body>
+</html>
