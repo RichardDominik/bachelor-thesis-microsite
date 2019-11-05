@@ -111,7 +111,7 @@ footer p {
 }
 
 #schedule .schedule-card:nth-child(4) .schedule-month p {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 #schedule .schedule-card:nth-child(5) .schedule-month p {
@@ -130,7 +130,11 @@ footer p {
 }
 
 ul {
-    list-style:none;
+    list-style: none;
+}
+
+ol {
+    margin-left: -20px;
 }
 
 .schedule-card {
@@ -190,6 +194,10 @@ a {
 @media all and (max-width: 1300px) {
     h1 {
         font-size: 2rem;
+        margin-left: 0px;
+    }
+
+    ol {
         margin-left: 0px;
     }
 }
