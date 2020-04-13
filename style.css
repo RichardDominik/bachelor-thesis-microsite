@@ -15,6 +15,13 @@ h1:nth-child(2), h3 {
     color: #C0C0C2 !important;
 }
 
+.logo {
+    position: fixed;
+    right: 120px;
+    top: 40px;
+    z-index: 20;
+}
+
 h1 {
     color: #000000 !important;
     margin-left: -65px;
@@ -205,6 +212,12 @@ a {
 @media all and (max-width: 774px) {
     .ntb-img {
         margin-left: 0px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
 
     [data-aos="custom-rigth"].aos-animate {

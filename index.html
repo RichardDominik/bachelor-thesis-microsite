@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="sk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Systém pre správu litostratigrafických dát</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    
 </head>
+
 <body>
     <header class="container ">
         <div class="col-md-12 col-12 no-gutters header">
             <div data-aos="fade-down" data-aos-offset="0" class="no-gutters">
                 <h2>Bakalárska práca</h2>
                 <h1 class="col-md-7 col-12">Systém pre správu litostratigrafických dát.</h1>
-                <p class="col-md-6 col-sm-12">Litostratigrafické dáta popisujú zloženie geografických formácií. V súčasnosti neexistuje centrálna databáza litostratigrafických dát pre Slovensko. Dáta sú distribuované v množstve publikácii.</p>
+                <p class="col-md-6 col-sm-12">Litostratigrafické dáta popisujú zloženie geografických formácií. V
+                    súčasnosti neexistuje centrálna databáza litostratigrafických dát pre Slovensko. Dáta sú
+                    distribuované v množstve publikácii.</p>
             </div>
             <div class="row pt-4">
-                <div data-aos="fade-right" data-aos-offset="0" class="col-md-9 col-12 ntb-img">
-                    <img src="assets/img/notebook-screen.png" alt="notebook screen" class="img img-responsive col-12">
+                <img src="assets/img/logo.svg" alt="logo" class="logo">
+                <div data-aos="fade-right" data-aos-offset="0" class="col-12 ntb-img">
+                    <img src="assets/img/admin.png" alt="notebook screen" class="img img-responsive col-12">
                 </div>
-                <div data-aos="custom-rigth" data-aos-offset="0" class="col-md-3 col-12 mobile-img">
+                <!-- <div data-aos="custom-rigth" data-aos-offset="0" class="col-md-3 col-12 mobile-img">
                         <img src="assets/img/mobile-screen.png" alt="mobile screen" class="img img-responsive col-12 mx-auto ">
-                </div>
+                    </div> -->
             </div>
-            
+
             <div class="info mt-5 col-sm-12" data-aos="fade-left" data-aos-offset="0">
                 <p>Autor: Richard Dominik</p>
                 <p>Školiteľ: Ing. Alexander Šimko PhD.</p>
                 <p>Konzultant: doc. Mgr. Natália Hlavatá Hudáčková, PhD.</p>
             </div>
-            
         </div>
     </header>
 
     <div class="bg_silver"></div>
-     
 
     <section class="container mt-5" id="goal">
         <div class="col-md-12 no-gutters" data-aos="fade-down" data-aos-offset="0">
             <h1>Cieľ</h1>
-            <p class="mt-5 col-md-11">Cieľom práce je vytvoriť webovú viacpoužívateľskú aplikáciu na správu litostratigrafických dát podľa požiadaviek Katedry geológie a paleontológie PRIF UK. Hlavnými funkciami aplikácie budú: správa dát o geografických formáciách a podformáciách, ich profiloch, materiáloch, relevantných publikáciách a pod., potvrdzovanie zmien schvaľovateľom, vyhľadávanie dát a export dát do pdf formátu. Funkcie aplikácie budú používateľom sprístupnené na základe používateľských rolí.</p>
+            <article class="mt-5 col-md-11">Cieľom práce je vytvoriť webovú viacpoužívateľskú aplikáciu na správu
+                litostratigrafických dát podľa požiadaviek Katedry geológie a paleontológie PRIF UK. Hlavnými funkciami
+                aplikácie budú: správa dát o geografických formáciách a podformáciách, ich profiloch, materiáloch,
+                relevantných publikáciách a pod., potvrdzovanie zmien schvaľovateľom, vyhľadávanie dát a export dát do
+                pdf formátu. Funkcie aplikácie budú používateľom sprístupnené na základe používateľských rolí.</article>
+        </div>
+    </section>
+
+    <section class="container mt-5" id="starting_point">
+        <div class="col-md-12 no-gutters" data-aos="fade-down" data-aos-offset="0">
+            <h1>Východiská</h1>
+            <div class="no-gutters">
+                <p class="mt-5 col-md-11"><a href="assets/sources/richard-dominik-vychodiskova-kapitola.pdf"
+                        title="východisková kapitola" download>Východisková kapitola</a></p>
+                <p class="col-md-11"><a href="assets/sources/screenshots.zip" title="screenshoty">Screenshoty aplikácie
+                        na stiahnutie</a></p>
+                <p class="col-md-11"><a href="http://geo.dai.fmph.uniba.sk" title="demo">Demo aplikácie (Meno a heslo na
+                        vyžiadanie od autora)</a></p>
+            </div>
         </div>
     </section>
 
@@ -53,25 +76,30 @@
         <div class="col-md-12" data-aos="fade-down" data-aos-offset="0">
             <h1>Zdroje</h1>
             <div class="sources no-gutters">
+                <p class="mt-5 col-md-11"><a href="assets/sources/bachelor_thesis_sources.pptx"
+                        title="prezentácia zdrojov">Prezentácia zdrojov</a> 26.11.2019</p>
                 <div class="mt-5 col-md-11 source no-gutters">
                     <h3>Laravel</h3>
                     <p>( Taylor Otwell )</p>
                     <div class="mt-4 col-sm-12">
-                        <a class="mt-5" target="_blank" href="https://laravel.com/docs/6.x">https://laravel.com/docs/6.x</a>
+                        <a class="mt-5" target="_blank" href="https://laravel.com/docs/6.x"
+                            title="laravel dokumentácia">https://laravel.com/docs/6.x</a>
                     </div>
                 </div>
                 <div class="mt-5 col-md-11 source no-gutters">
                     <h3>Vue.js </h3>
                     <p>( Evan You )</p>
                     <div class="mt-4">
-                        <a class="mt-5" target="_blank" href="https://vuejs.org/v2/guide/">https://vuejs.org/v2/guide/</a>
+                        <a class="mt-5" target="_blank" href="https://vuejs.org/v2/guide/"
+                            title="vue.js dokumentácia">https://vuejs.org/v2/guide/</a>
                     </div>
                 </div>
                 <div class="mt-5 col-md-11 source no-gutters">
                     <h3>Craftable</h3>
                     <p>( BRACKETS by Triad )</p>
                     <div class="mt-4">
-                        <a class="mt-5" target="_blank" href="https://getcraftable.com/docs/5.0/overview">https://getcraftable.com/docs/5.0/overview</a>
+                        <a class="mt-5" target="_blank" href="https://getcraftable.com/docs/5.0/overview"
+                            title="craftable dokumentácia">https://getcraftable.com/docs/5.0/overview</a>
                     </div>
                 </div>
                 <div class="mt-5 col-md-11 source no-gutters">
@@ -92,8 +120,8 @@
             <div class="col-12 no-gutters">
                 <ol class="pt-5">
                     <li>Úvod</li>
-                    <li>Základné pojmy</li>
-                    <li>Analýza existujúcich riešení</li>
+                    <li>Úvod do problematiky a požiadaviek aplikácie</li>
+                    <li>Analýza technológii</li>
                     <li>Aplikácia z pohľadu používateľa</li>
                     <li>Technický pohľad aplikácie</li>
                     <li>Záver</li>
@@ -101,8 +129,26 @@
                 <p>Príloha A : Nasadenie a prevádzka</p>
             </div>
         </div>
-
     </section>
+
+    <section class="container mt-5">
+        <div class="col-md-12 no-gutters" data-aos="fade-down" data-aos-offset="0">
+            <h1>Existujúce riešenia</h1>
+            <div class="col-12 no-gutters">
+                <ol class="pt-5">
+                    <li><a href="http://www.paleolocalities.com/" target="_blank"
+                            title="významné Paleontologické lokality Slovenska">Významné Paleontologické lokality
+                            Slovenska</a></li>
+                    <li><a href="https://asud.ga.gov.au/" target="_blank" title="australian goverment">Australian
+                            goverment | Geoscience Australia</a></li>
+                    <li><a href="https://macrostrat.org/sift/#/" target="_blank" title="macrostat">Macrostrat</a></li>
+                </ol>
+
+            </div>
+        </div>
+    </section>
+
+
 
     <section class="container section-margin mt-5" id="schedule">
         <div class="col-md-12 col-12 no-gutters">
@@ -114,23 +160,24 @@
                         <p>Október</p>
                     </div>
                     <ul class="pt-5 pb-4 pl-md-5 pl-4">
-                        <li>-  Wireframy formulárov.</li>
-                        <li>-  Overenie správnosti dátoveho modelu.</li>
-                        <li>-  Štúdium technológií a existujúcich riešení</li>
+                        <li>- Wireframy formulárov.</li>
+                        <li>- Overenie správnosti dátoveho modelu.</li>
+                        <li>- Štúdium technológií a existujúcich riešení</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="offset-md-3 col-12 col-md-9 schedule-card mt-5 shadow" data-aos="fade-right" data-aos-offset="0">
+            <div class="offset-md-3 col-12 col-md-9 schedule-card mt-5 shadow" data-aos="fade-right"
+                data-aos-offset="0">
                 <div class="row no-gutters">
                     <div class="schedule-month">
                         <p>December</p>
                     </div>
                     <ul class="pt-5 pb-4 pl-md-5 pl-4">
-                        <li>-  Importovanie dát z Excelu.</li>
-                        <li>-  Shvaľovanie zmien administrátorom.</li>
-                        <li>-  Wireframe pre frontend aplíkacie.</li>
-                        <li>-  Export dát do PDF.</li>
+                        <li>- Importovanie dát z Excelu.</li>
+                        <li>- Schvaľovanie zmien administrátorom.</li>
+                        <li>- Wireframe pre frontend aplíkacie.</li>
+                        <li>- Export dát do PDF.</li>
                     </ul>
                 </div>
             </div>
@@ -141,9 +188,9 @@
                         <p>Január/Február</p>
                     </div>
                     <ul class="pt-5 pb-4 pl-md-5 pl-4">
-                        <li>-  Prototyp backendu a administrácia.</li>
-                        <li>-  Začiatok práce na frontende.</li>
-                        <li>-  Začiatok písania dokumentu.</li>
+                        <li>- Prototyp backendu a administrácia.</li>
+                        <li>- Začiatok práce na frontende.</li>
+                        <li>- Začiatok písania dokumentu.</li>
                     </ul>
                 </div>
             </div>
@@ -154,11 +201,11 @@
                         <p>Apríl</p>
                     </div>
                     <ul class="pt-5 pb-4 pl-md-5 pl-4">
-                        <li>-  Frontend aplikácie.</li>
-                        <li>-  Dokončenie textu bakalárskej práce.</li>
-                        <li>-  Finálne testovanie aplíkacie.</li>
-                        <li>-  Zapracovanie pripomienok.</li>
-                        
+                        <li>- Frontend aplikácie.</li>
+                        <li>- Dokončenie textu bakalárskej práce.</li>
+                        <li>- Finálne testovanie aplíkacie.</li>
+                        <li>- Zapracovanie pripomienok.</li>
+
                     </ul>
                 </div>
             </div>
@@ -169,58 +216,194 @@
                         <p>Máj</p>
                     </div>
                     <ul class="pt-5 pb-4 pl-5">
-                        <li>-  Finálna verzia bakalárskej práce.</li>
-                        <li>-  Prezentácia.</li>
+                        <li>- Finálna verzia bakalárskej práce.</li>
+                        <li>- Prezentácia.</li>
                     </ul>
                 </div>
-            </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="col-md-12 no-gutters" data-aos="fade-down" data-aos-offset="0">
+            <h1>Plán a postup práce</h1>
+            <div class="col-12 no-gutters">
+                <p class="mt-5 col-md-11"><a href="assets/sources/plan_a_postup.pdf" title="plán a postup práce"
+                        download>Prezentácia</a></p>
+            </div>
         </div>
     </section>
 
     <section class="container mt-5" id="diary">
         <div class="col-md-12" data-aos="fade-down" data-aos-offset="0">
             <h1>Denník</h1>
+            <h2 class="mt-5">Zimný semester</h2>
             <div class="diary-range mt-5 no-gutters">
                 <h3>1.10.2019 - 13.10.2019</h3>
-                <p class="mt-3 col-md-9">Overenie spávnosti dátoveho modelu pomocou prototypu aplíkacie. Návrh riešenia pre importovania <a href="http://stratigraphy.org/ICSchart/ChronostratChart2019-05.jpg" target="_blank">litostratografického grafu</a> pomocou Excelu a návrh wireframov pre formuláre v aplikácií. Prezentačný web o bakalárskej práci</p>
+                <p class="mt-3 col-md-9">Overenie spávnosti dátoveho modelu pomocou prototypu aplíkacie. Návrh riešenia
+                    pre importovania <a href="http://stratigraphy.org/ICSchart/ChronostratChart2019-05.jpg"
+                        target="_blank" title="graf">litostratografického grafu</a> pomocou Excelu a návrh wireframov
+                    pre formuláre v aplikácií. Prezentačný web o bakalárskej práci</p>
             </div>
             <div class="diary-range mt-5 no-gutters">
                 <h3>14.10.2019 - 23.10.2019</h3>
-                <p class="mt-3 col-md-9">Rozvrhnutie harmonogramu práce a hlavných kapitol práce. Návrh hlavného formulára pre pridávanie formácii a opätovné testovanie novej verzie dát do databázy. Konfigurácia testovacieho servera.</p>
+                <p class="mt-3 col-md-9">Rozvrhnutie harmonogramu práce a hlavných kapitol práce. Návrh hlavného
+                    formulára pre pridávanie formácii a opätovné testovanie novej verzie dát do databázy. Konfigurácia
+                    testovacieho servera.</p>
             </div>
             <div class="diary-range mt-5 no-gutters">
                 <h3>23.10.2019 - 30.10.2019</h3>
-                <p class="mt-3 col-md-9">Oprava hlavných kapitol práce po konzultácii so školiteľom a začiatok práce na administrátorskej časti aplikácie pomocou <a href="https://getcraftable.com/docs/5.0/overview" target="_blank">Craftable 5</a> 
-                    a <a href="https://www.docker.com/" target="_blank">Dockeru</a>. Pokračovanie v návrhu formuláru pre pridávanie a editovanie formácii. Štúdium implementácie schvaľovanie zmien hlavným administrátorom.</p>
+                <p class="mt-3 col-md-9">Oprava hlavných kapitol práce po konzultácii so školiteľom a začiatok práce na
+                    administrátorskej časti aplikácie pomocou <a href="https://getcraftable.com/docs/5.0/overview"
+                        target="_blank" title="craftable">Craftable 5</a>
+                    a <a href="https://www.docker.com/" target="_blank" title="docker">Dockeru</a>. Pokračovanie v
+                    návrhu formuláru pre pridávanie a editovanie formácii. Štúdium implementácie schvaľovanie zmien
+                    hlavným administrátorom.</p>
             </div>
             <div class="diary-range mt-5 no-gutters">
                 <h3>30.10.2019 - 6.11.2019</h3>
-                <p class="mt-3 col-md-9">Importovanie intervalov z Excelu a štúdium literátury o aplikačných databázových transakciách a o uchovávaní viacerých verzií dát v relačných databázach. Dokončenie návrhu implementácie schvaľovania zmien hlavným administrátorom. Návrh vyhľadávacieho formulára pre frontend.</p>
+                <p class="mt-3 col-md-9">Importovanie intervalov z Excelu a štúdium literátury o aplikačných
+                    databázových transakciách a o uchovávaní viacerých verzií dát v relačných databázach. Dokončenie
+                    návrhu implementácie schvaľovania zmien hlavným administrátorom. Návrh vyhľadávacieho formulára pre
+                    frontend.</p>
             </div>
             <div class="diary-range mt-5 no-gutters">
                 <h3>6.11.2019 - 13.11.2019</h3>
-                <p class="mt-3 col-md-9">Stretnutie na PRIFUK a prekonzultovanie formulárov pre pridávanie a editovanie formácii. Špecifikácia používateľkých rolí. Došpecifikovanie požiadaviek pre systém a dátový model.</p>
+                <p class="mt-3 col-md-9">Stretnutie na PRIFUK a prekonzultovanie formulárov pre pridávanie a editovanie
+                    formácii. Špecifikácia používateľkých rolí. Došpecifikovanie požiadaviek pre systém a dátový model.
+                </p>
             </div>
-            
+            <div class="diary-range mt-5 no-gutters">
+                <h3>13.11.2019 - 20.11.2019</h3>
+                <p class="mt-3 col-md-9">Úprava dátového modelu podľa nových požiadaviek zo stretnutia na PRIFUK.</p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>20.11.2019 - 27.11.2019</h3>
+                <p class="mt-3 col-md-9"><a href="assets/sources/bachelor_thesis_sources.pptx"
+                        title="prezentácia zdrojov">Prezentácia zdrojov</a>, úprava dátového modelu a príprava
+                    prezentácie a abstraktu na predvianočný seminár PRIFUK.</p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>27.11.2019 - 11.12.2019</h3>
+                <p class="mt-3 col-md-9">Implementácia aplikácie (migrácie, rozpracované CRUD operácie, formulár pre
+                    pridávanie formácií).</p>
+            </div>
+            <h2 class="mt-5">Letný semester</h2>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>18.02.2020 - 25.02.2020</h3>
+                <p class="mt-3 col-md-9">Návrh frontendu pre detail formácie. Pridané používateľské role a právomoci pre
+                    "Reviewer", "Creator", scopes pre formácie a jej vzťahy (listing dát, frontend, formuláre),
+                    verziovanie referenčných a typových profilov. Vylepšené vyhľadávanie formácii na frontende (podľa
+                    anglického názvu, iného názvu, geologických jednotiek). Refaktorovanie verziovania dát v aplikácii.
+                </p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>25.02.2020 - 03.03.2020</h3>
+                <p class="mt-3 col-md-9">Pridanie databázového seedera pre Fosílie, Litotypy, Metódy merania, Oblasti,
+                    Publikácie, Geologické jednotky, Používateľou.
+                    Zapracovanie dizajnu pre detail formácii podľa návrhu a pridanie ilustrácii z <a
+                        href="https://undraw.co/">undraw.co</a>.
+                    Vykreslovanie geografickej pozície profilov za pomoci knižnice <a
+                        href="https://leafletjs.com/">Leaftlet</a> v administrácii aj na frontende.
+                    Pridanie stĺpca created_by_admin_user_id pri meraniach veku a profiloch. Pridaná História autorov v
+                    administrácii formácii.
+                </p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>03.03.2020 - 10.03.2020</h3>
+                <p class="mt-3 col-md-9">Frontendové vyhľadávanie pre výrazy, ktoré su dlhšie ako 3 znaky a vylepšené
+                    vyhľadávanie v iných názov formácii.
+                    Vyriešený problém pri zobarazovaní bodov v knižnici <a href="https://leafletjs.com/">Leaftlet</a>
+                    pre Vue.js. Redizajn formulárov v administrácii pre akcie "show" a "review".
+                    Refaktorizácia kódu. Pridanie stĺpcov edited_at a edited_by_admin_user_id v databábaze pre formácie
+                    za účelom aplikačných transakcii, ktoré su rozpracované.
+                </p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>10.03.2020 - 17.03.2020</h3>
+                <p class="mt-3 col-md-9">Pridanie show akcie pre všetky dáta v administrácii. Vylepšenie zamykania dát
+                    pre formácie, profily a merania veku (nové pravidlá, pridána vyššia úroveň pre databázové
+                    transakcie).
+                    Vytvorenie testovacej verzie aplikácie pre PRIFUK. Pridané stránkovanie pre výsledky na frontende a
+                    pridaná warning hláška ak zadaným kritériam nevyhovuje žiadna formácia. Pridané zakladné filtrovanie
+                    v listingu formácii.
+                    Refaktorizácia a optimalizácia aplikácie.
+                </p>
+            </div>
+            <div class="diary-range mt-5 no-gutters">
+                <h3>17.03.2020 - 24.03.2020</h3>
+                <p class="mt-3 col-md-9">Zmena hlášky upozornenia pri frontendovom vyhľadávaní ak žiadne formácie
+                    nezodpovedajú zadaným kritériam používateľa. Odstánenie tabuľky pre časové ekvivalenty (po vyjadrení
+                    PRIFUK sa to zapracuje ako databázový pohľad).
+                    Pridané pokročilé filtrovanie pri listingu formácii (napríklad podľa publikácií). Pridaný PDF export
+                    formácii. Refaktorizácia service pre formácie. Slug pre formácie (aby frontendový používatelia
+                    nevideli v url adrese id formácie, ale slug, ktorý si vedia prípadne aj lepšie zapamätať).
+                    Príprava <a href="assets/sources/plan_a_postup.pdf">prezentácie</a> s názvom "Plán a postup práce" .
+                </p>
+            </div>
+
+            <div class="diary-range mt-5 no-gutters">
+                <h3>24.03.2020 - 31.03.2020</h3>
+                <p class="mt-3 col-md-9"> Zobrazovanie ID stĺpca v listingu pre formácie iba v lokálnom prostredi
+                    (APP_ENV=local). Pridanie fosilií do pokročilého filtrovanie v listingu formácii. Frontendove
+                    vyhľadávanie pomocou databázovej funkcie UNACCENT (aj migrácia pre vytvorenie tejto extension).
+                    Vlastné vynímky pre zamykanie formácii a pre frontendove vyhľadávanie. Pridané databázové indexy.
+                    Návrh kapitol a podkapitol pre text bakalárskej práce. Vylepšenie PDF exportu : Dáta formácii sa
+                    exportuju ako zip súbor s pdf súbormi podľa množstva exportovaných dát (doležité pri exportoch s
+                    veľkým objemom dát).
+                </p>
+            </div>
+
+            <div class="diary-range mt-5 no-gutters">
+                <h3>31.03.2020 - 07.04.2020</h3>
+                <p class="mt-3 col-md-9"> Zobrazovanie ID stĺpcou iba v lokálnom prostredi (APP_ENV=local). Zmena
+                    prekladov v aplikácii podľa feedbacku z PRIFUK. Vytvorený command na mazanie export súborov, ktorý
+                    sa spúšta pomocou cronu každú polnoc. Pridaný databázový seeder pre všetky dáta a tabuľky (manuálne
+                    pretestovanie aplikácie na väčšej množine dát). Pridané jednotkové testy pre formácie (listing,
+                    review listing,
+                    show) pre všetky používateľské role. Štúdium materiálov pre prehľad o stratigrafii a
+                    litostratigrafii.
+
+                </p>
+            </div>
+
+            <div class="diary-range mt-5 no-gutters">
+                <h3>07.04.2020 - 14.04.2020</h3>
+                <p class="mt-3 col-md-9"> Vylepšený databázový seeder (rodičovské formácie, iné názvy formácii,
+                    referenčné profily).
+                    Pridané jednotkové testy pre formácie (duplikovanie, zamykanie, editovanie, vytváranie, mazanie,
+                    recenzovanie),
+                    profily (listing, mazanie, vytváranie), merania veku (listing, mazanie, vytváranie), intervaly
+                    (listing, show, editovanie)
+                    , používateľov (vytváranie, editovanie, listing) pre všetky používateľské role. Bugfixy, ktoré
+                    odhalili jednotkové testy. Refaktorizácia (odstránené magické konštanty a chybové hlášky v
+                    prekladači).
+                    Začiatok písanie bakalárske práce (kapitola Úvod do problematiky a požiadaviek aplikácie).
+                </p>
+            </div>
     </section>
 
     <div class="bg_silver_smaller"></div>
 
     <footer class="">
         <div class="container">
-                <div class="row">
-                    <div class="col-md-4 offset-md-4 text-center">
-                        <p>Richard Dominik 2019 - 2020</p>
-                    </div>
-                    <div class="social-networks col-md-4 text-right">
-                        <a href="https://www.linkedin.com/in/richard-dominik-876693168/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
-                        <a href="https://github.com/RichardDominik" target="_blank" class="ml-2 mr-2"><i class="fa fa-2x fa-github"></i></a>
-                        <a href="https://www.instagram.com/richard.dominik/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
-                    </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-4 text-center">
+                    <p>Richard Dominik 2019 - 2020</p>
                 </div>
+                <div class="social-networks col-md-4 text-right">
+                    <a href="https://www.linkedin.com/in/richard-dominik-876693168/" target="_blank" title="linkedin"><i
+                            class="fa fa-2x fa-linkedin"></i></a>
+                    <a href="https://github.com/RichardDominik" target="_blank" class="ml-2 mr-2" title="github"><i
+                            class="fa fa-2x fa-github"></i></a>
+                    <a href="https://www.instagram.com/richard.dominik/" target="_blank" title="instagram"><i
+                            class="fa fa-2x fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./app-min.js"></script>
 </body>
+
 </html>
