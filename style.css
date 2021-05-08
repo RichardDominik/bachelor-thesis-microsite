@@ -185,7 +185,16 @@ ol {
     background: #ffffff;
 }
 
-.bg_silver_main {
+.main-image {
+    height: 350px;
+    width: auto;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    z-index: -1;
+}
+
+/* .bg_silver_main {
     width: 0px;
     height:0px;
     border-bottom: 50vw solid #F3F2F7;
@@ -193,7 +202,7 @@ ol {
     bottom: 0;
     right: 0;
     position: absolute;
-}
+} */
 
 .bg_silver {
     position: absolute;
@@ -258,6 +267,12 @@ a {
 
     ol {
         margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 946px) {
+    .main-image {
+        display: none;
     }
 }
 
